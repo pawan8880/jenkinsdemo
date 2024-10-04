@@ -11,5 +11,11 @@ public class HelloController {
 		return "Hello MOTO This Is Jenkins World";
 		
 	}
-
+	
+	
+	@GetMapping("/hii")
+	public String msgforJenkinsTest() {
+		return "Hello!  This Is Jenkins World mr pawan";
+		
+	}
 }
